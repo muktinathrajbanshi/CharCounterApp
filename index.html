@@ -6,6 +6,26 @@
     <title>Grammarly Clone App</title>
   </head>
   <body>
-    <h1>Welcome to Real-Time Character Counter App!</h1>
+    <div class="container">
+      <h2>Real Time Character Counter</h2>
+      <p>
+        Check your English text for grammar, spelling, and punctuation errors
+        with muktinath tech real time counter.
+      </p>
+
+      <textarea
+        id="textarea"
+        class="textarea"
+        maxlength="150"
+        placeholder="Please write here"
+      ></textarea>
+
+      <button onclick="copyText()"></button>
+
+      <div class="counter-container">
+        <p>Total character: <span id="total-counter">0</span></p>
+        <p>Total character: <span id="total-counter">0</span></p>
+      </div>
+    </div>
   </body>
 </html>
