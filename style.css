@@ -69,3 +69,21 @@ textarea {
   word-spacing: 2px;
   line-height: 1.6;
 }
+
+button {
+  background-color: rgb(17, 166, 131);
+  color: #fff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  padding: 16px 32px;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  margin-top: -80px;
+}
