@@ -13,3 +13,11 @@ const updateCounter = () => {
 }
 
 charVal.addEventListener("keyup", () => updateCounter());
+
+// copy to text code 
+
+const copyText = () => {
+    charVal.select();
+    charVal.setSelectionRange(0, 9999); // mobile
+    navigator.clipboard.writeText(charVal.value); //important
+}
