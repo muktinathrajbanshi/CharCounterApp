@@ -101,3 +101,99 @@ button:hover {
   margin-top: 30px;
   padding: 0 10px 0 10px;
 }
+
+/* =========================
+   FIXED Mobile Responsive Design
+   ========================= */
+
+/* Tablets & small laptops */
+@media (max-width: 992px) {
+  h2 {
+    font-size: 38px;
+  }
+
+  p {
+    font-size: 17px;
+    margin-bottom: 60px;
+  }
+
+  textarea {
+    min-height: 260px;
+  }
+}
+
+/* Tablets & large phones */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+    align-items: flex-start;
+  }
+
+  .container {
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  textarea {
+    min-height: 220px;
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  button {
+    margin-top: 24px; /* ✅ no negative margin */
+    padding: 14px 26px;
+    font-size: 16px;
+  }
+
+  .counter-container {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  body {
+    padding: 16px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14.5px;
+    margin-bottom: 30px;
+  }
+
+  textarea {
+    min-height: 180px;
+    font-size: 15px;
+    border-radius: 12px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    font-size: 15px;
+    justify-content: center;
+  }
+
+  .counter-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 16px;
+  }
+}
